@@ -1,0 +1,144 @@
+.main-section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-section-header {
+  background: #60bce3;
+  display: flex;
+  padding: 2px 53px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    li {
+      padding: 0 15px;
+    }
+  }
+}
+.main-section__content {
+  background: #eff4f7;
+  overflow: scroll;
+  padding: 0px 50px 0px 50px;
+  h2 {
+    margin-top: 38px;
+  }
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.main-section__content {
+  display: flex;
+  flex-direction: column;
+  span {
+    padding: 12px 10px 12px 0;
+  }
+  .content-item {
+    margin: 6px 0;
+  }
+  .content-item__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content-price {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #60bce3;
+    }
+  }
+  .content-item__data {
+    h3 {
+      padding: 0;
+      margin: 0;
+    }
+    div {
+      padding: 12px 0;
+    }
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0px 70px 100px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .lastItem {
+    div {
+      padding: 0;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .editplan {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #d6e2f1;
+  }
+  .data-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #585859;
+  }
+  .grayed {
+    color: #8d8d8e;
+  }
+  .active {
+    color: #60bce3;
+  }
+  .cancel {
+    color: #e49292;
+  }
+  .dropped-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #f8fcff;
+    border-radius: 6px;
+    padding: 0px 16px !important;
+    margin: 12px 0;
+    h4 {
+      padding: 5px 8px;
+      margin: 0;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 5px;
+    }
+    span {
+      padding: 4px;
+    }
+  }
+}
+
+.slp-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+  &:nth-child(2) {
+    background: #f8fcff;
+  }
+  .buy-btn {
+    margin-left: 32px;
+    background: #60bce3;
+    border-radius: 5px;
+    padding: 24px 110px;
+  }
+}

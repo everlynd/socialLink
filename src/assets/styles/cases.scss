@@ -1,0 +1,42 @@
+.cases-heading {
+  display: flex;
+  justify-content: space-between;
+  button {
+    color: #60bce3;
+    font-size: 25px;
+  }
+  span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #bfd2df;
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #8d8d8e;
+  .day-timer {
+    color: #bfd2df;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  button {
+    font-weight: 500;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #60bce3;
+  }
+}

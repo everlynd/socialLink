@@ -1,0 +1,31 @@
+@import url("./styles/aside.scss");
+@import url("./styles/mainsection.scss");
+@import url("./styles/cases.scss");
+@import url("./styles/modal.scss");
+
+@font-face {
+  font-family: "Segoe";
+  src: url(segoe.ttf);
+}
+
+body {
+  font-family: "Segoe";
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #60bce3;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
